@@ -1,0 +1,7 @@
+.nav-brand img{
+    max-height: 50px;
+}
+
+.welcome-area-container{
+    height: calc(100vh - 100px);
+}
