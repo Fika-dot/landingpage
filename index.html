@@ -54,12 +54,11 @@
 
               <div class="classynav">
                 <ul id="nav">
-                  <li class="current-item"><a href="index-2.html">Home</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                  <li><a href="projects.html">Project</a></li>
-                  <li><a href="models.html">Models</a></li>
-                  <li><a href="casting.html">Casting</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="index.html">Home</a></li>
+                      <li><a href="#about">About Us</a></li>
+                  <li><a href="#models">Models</a></li>
+                  <li><a href="#projects">Project</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -68,7 +67,7 @@
       </div>
     </header>
 
-    <section class="welcome-area ">
+    <section class="welcome-area">
       <div class="welcome-slides owl-carousel ">
         <div class="single-welcome-slide">
           <div
@@ -128,10 +127,10 @@
       </div>
     </section>
 
-    <section class="mona-about-us-area mb-30 section-padding-80-0">
-      <div class="container">
+    <section class="mona-about-us-area mb-30 section-padding-80-0" id="about">
+      <div class="about-container">
         <div class="row">
-          <!-- <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <div
               class="about-us-thumbnail mb-50 wow fadeInUp"
               data-wow-delay="100ms"
@@ -140,7 +139,7 @@
               <img src="img/bg-img/16.jpg" alt="" />
               <span class="line2"></span>
             </div>
-          </div> -->
+          </div>
 
           <div class="col-12 col-sm-6 col-lg-4">
             <div
@@ -153,7 +152,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-4">
             <div
               class="about-us-content mb-50 wow fadeInUp"
               data-wow-delay="700ms"
@@ -177,7 +176,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" id="models">
         <div class="service-area mt-80">
           <div class="row">
             <div class="col-12 col-sm-6 col-lg-3">
@@ -2464,12 +2463,12 @@
       </div>
     </section>
 
-    <section class="mona-blog-area mb-50 section-padding-80-0">
+    <section class="mona-blog-area mb-50 section-padding-80-0" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-heading text-center">
-              <h2>Latest News</h2>
+              <h2>Projects</h2>
             </div>
           </div>
         </div>
@@ -2550,6 +2549,63 @@
         </div>
       </div>
     </section>
+
+
+    <section class="mona-casting-form-area section-padding-80-0" id="contact">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-lg-6 col-xl-6">
+            <div class="casting-form-thumbnail mb-80">
+              <img src="img/bg-img/30.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-5">
+            <div class="casting-form mona-contact-form mb-80">
+              <div class="contact-heading">
+                <h2>Do you want to be a Supermodel?</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing esed diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="fullName">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="full-name"
+                    id="fullName"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="emailId">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="emailId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="resume">Resume:</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="8"
+                    cols="80"
+                    id="resume"
+                  ></textarea>
+                </div>
+                <button class="btn mona-btn btn-2 mt-15">Contact Us</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <footer class="footer-area section-padding-80-0">
       <div class="container">

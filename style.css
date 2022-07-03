@@ -488,9 +488,9 @@ ul {
       font-weight: 500;
       font-size: 18px;
       text-transform: capitalize;
-      color: #000000; }
+      color: #ffffff; }
       .classy-nav-container .classy-navbar .classynav ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li a:hover {
-        color: #ffffff; }
+        color: #000000; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
@@ -511,7 +511,7 @@ ul {
       position: absolute;
       width: 80%;
       height: 2px;
-      background-color: #000000;
+      background-color: #ffffff;
       bottom: 0;
       left: 50%;
       -webkit-transform: translateX(-50%);
@@ -2167,4 +2167,9 @@ ul {
 /* Personal styles */
 .single-service-area{
   color: #800080;
+}
+
+.about-container{
+  width: 70%;
+  margin: auto;
 }
