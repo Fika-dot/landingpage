@@ -2173,3 +2173,9 @@ ul {
   width: 70%;
   margin: auto;
 }
+
+.about-img{
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: bottom;
+}
