@@ -35,7 +35,7 @@
               style="background-image: url(img/core-img/curve.png)"
             ></div>
 
-            <a class="nav-brand" href="index.html"
+            <a class="nav-brand" href="#home"
               ><img src="img/core-img/logo.png" alt=""
             /></a>
 
@@ -54,7 +54,7 @@
 
               <div class="classynav">
                 <ul id="nav">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#home">Home</a></li>
                       <li><a href="#about">About Us</a></li>
                   <li><a href="#professionals">Professionals</a></li>
                   <li><a href="#projects">Projects</a></li>
@@ -67,7 +67,7 @@
       </div>
     </header>
 
-    <section class="welcome-area">
+    <section class="welcome-area" id="home">
       <div class="welcome-slides owl-carousel ">
         <div class="single-welcome-slide">
           <div
@@ -2615,6 +2615,16 @@
     <script src="js/mona.bundle.js"></script>
 
     <script src="js/default-assets/active.js"></script>
+
+    <script>
+      $(document).on('click', 'a[href^="#"]', function (event) {
+          event.preventDefault();
+
+          $('html, body').animate({
+              scrollTop: $($.attr(this, 'href')).offset().top
+          }, 1000);
+      });
+    </script>
     <!-- <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
