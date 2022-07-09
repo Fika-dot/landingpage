@@ -29,13 +29,15 @@
         var welcomeSlider = $('.welcome-slides');
         welcomeSlider.owlCarousel({
             items: 1,
-            loop: true,
-            autoplay: true,
+            loop: false,
+            autoplay: false,
             smartSpeed: 1500,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut',
-            autoplayTimeout: 7000,
-            nav: true,
+            // autoplayTimeout: 7000,
+            mouseDrag: false,
+            touchDrag: false,
+            nav: false,
             navText: ['', '<i class="fa fa-angle-left" aria-hidden="true"></i>']
         })
         welcomeSlider.on('translate.owl.carousel', function () {
