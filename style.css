@@ -1153,12 +1153,12 @@ ul {
       color: #a6a6a6;
       font-weight: 600;
       text-transform: uppercase; }
-  .single-model-item:focus .model-thumbnail .first-thumbnail, .single-model-item:hover .model-thumbnail .first-thumbnail {
+  /* .single-model-item:focus .model-thumbnail .first-thumbnail, .single-model-item:hover .model-thumbnail .first-thumbnail {
     opacity: 0;
     visibility: hidden; }
   .single-model-item:focus .model-thumbnail .second-thumbnail, .single-model-item:hover .model-thumbnail .second-thumbnail {
     opacity: 1;
-    visibility: visible; }
+    visibility: visible; } */
   .single-model-item:focus .model-info h3, .single-model-item:hover .model-info h3 {
     color: #e1ad01; }
 
