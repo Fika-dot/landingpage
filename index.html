@@ -663,11 +663,11 @@
           <div class="col-12 col-lg-6 col-xl-5">
             <div class="casting-form mona-contact-form mb-80">
               <div class="contact-heading">
-                <h2>Do you want to be a Supermodel?</h2>
-                <p>
+                <h2>What do you want to do?</h2>
+                <!-- <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing esed diam
                   nonumy eirmod tempor invidunt ut labore et dolore magna.
-                </p>
+                </p> -->
               </div>
               <form action="#" method="post">
                 <div class="form-group">
@@ -689,7 +689,15 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label for="resume">Resume:</label>
+                  <label for="emailId">Category:</label>
+                  <select name="category" id="category" class="form-control">
+                    <option value="talent">I am a talent</option>
+                    <option value="company">I am looking for a talent</option>
+                    <option value="both">Both</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="resume">Message:</label>
                   <textarea
                     class="form-control"
                     name="message"
@@ -698,7 +706,7 @@
                     id="resume"
                   ></textarea>
                 </div>
-                <button class="btn mona-btn btn-2 mt-15">Contact Us</button>
+                <button class="btn mona-btn btn-2 mt-15">Send</button>
               </form>
             </div>
           </div>
